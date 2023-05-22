@@ -14,7 +14,9 @@ $allSumValues=[];
 
 for($i=0;$i<count($array);$i++){
 
+    // store the sum values 
    $sum=0;
+
 
     $check=false;
 
@@ -22,7 +24,7 @@ for($i=0;$i<count($array);$i++){
 
        if($check)
        {
-
+        // check the value next also -1 or not 
         if($array[$i][$j]==-1)
         {
             $check=false;
@@ -41,11 +43,10 @@ for($i=0;$i<count($array);$i++){
        }
 
     }
-    // echo $sum ."\n";
-
+// it means push the sum values form each array 
 $allSumValues[]=$sum;
-
 }
+// this  is line find the which index max sum; 
 print_r("The index maximum sum is" ." ".(array_keys($allSumValues,max($allSumValues))[0]));
 echo "\n";
 print_r($allSumValues);
