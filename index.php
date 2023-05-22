@@ -84,43 +84,7 @@ print_r($allSumValues);
 
 
 
-// $toatlarr=[];
-//  $result=0;
 
-//  $columnTotal = [];
-// for($i=1;$i<=3;$i++){
-
-//     for($j=1;$j<=3;$j++){
-//         if($i==1){
-//             $result+= $j *3;
-//             // $columnTotal[$j-1] += $j * 3;
-//         }
-//         if($i==2){
-//             $result+= $j *5;
-//             // $columnTotal[$j-1] += $j *5;
-//         }
-//         if($i==3){
-//             $result+= $j *10;
-//             // $columnTotal[$j-1] += $j  * 10;
-//         }
-//         // if($i!=$j){
-//         //     echo " ";
-//         // }
-//         // else{
-//         //     echo $j;
- 
-//         // }  
-//         if($i==1 &&  $j==3){
-            
-//         }
-
-
-//     }
-
-//     echo "\n";
-//     array_push($toatlarr,$result);
-//     $result=0; 
-// }
 
 
 
